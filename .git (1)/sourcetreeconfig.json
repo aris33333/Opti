@@ -1,0 +1,33 @@
+{
+  "$id": "15",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2022-10-26T15:12:54.3885428+03:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "16",
+      "BaseUrl": "https://www.github.com",
+      "Identifier": "aris33333/Opti",
+      "RemoteName": "origin",
+      "Type": 0,
+      "Username": "aris33333",
+      "CloneUrl": null,
+      "ProjectUrl": null,
+      "AccountId": "aris33333@github.com",
+      "AvatarUrl": null,
+      "DisplayName": "origin: https://www.github.com"
+    }
+  ]
+}
