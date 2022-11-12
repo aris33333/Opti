@@ -158,7 +158,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -175,7 +175,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -192,7 +192,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -209,7 +209,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -224,8 +224,15 @@ UniqueID=72083095-44A2-433B-A815-2F0EB92E4363
 Description=NO CAP
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=C32|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
+VariationCount=8
+Variation1=Designator=C30|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
+Variation2=Designator=R18|UniqueId=\UURXELBM\LDOGKCLX|Kind=1|AlternatePart= 
+Variation3=Designator=R19|UniqueId=\UURXELBM\DJJRMLAI|Kind=1|AlternatePart= 
+Variation4=Designator=R20|UniqueId=\UURXELBM\ZDRPUCGF|Kind=1|AlternatePart= 
+Variation5=Designator=R17|UniqueId=\UURXELBM\UVLSYZXI|Kind=1|AlternatePart= 
+Variation6=Designator=R16|UniqueId=\UURXELBM\DEHMBTAS|Kind=1|AlternatePart= 
+Variation7=Designator=U6|UniqueId=\UURXELBM\XNRSVBEP|Kind=1|AlternatePart= 
+Variation8=Designator=J3|UniqueId=\UURXELBM\ZQZFBDKR|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -343,12 +350,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-L5200DW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
