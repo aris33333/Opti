@@ -224,8 +224,15 @@ UniqueID=72083095-44A2-433B-A815-2F0EB92E4363
 Description=NO CAP
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=8
 Variation1=Designator=C32|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
+Variation2=Designator=R38|UniqueId=\UURXELBM\TJFZFJLU|Kind=1|AlternatePart= 
+Variation3=Designator=R39|UniqueId=\UURXELBM\NFOJIPUI|Kind=1|AlternatePart= 
+Variation4=Designator=R40|UniqueId=\UURXELBM\FVCFEVEO|Kind=1|AlternatePart= 
+Variation5=Designator=R41|UniqueId=\UURXELBM\ARVTPSTM|Kind=1|AlternatePart= 
+Variation6=Designator=R42|UniqueId=\UURXELBM\IUIYYOCO|Kind=1|AlternatePart= 
+Variation7=Designator=P1|UniqueId=\UURXELBM\DTFHXUEQ|Kind=1|AlternatePart= 
+Variation8=Designator=U6|UniqueId=\UURXELBM\RWAMZMJM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -343,12 +350,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-L5200DW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
