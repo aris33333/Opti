@@ -158,7 +158,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -175,7 +175,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -192,7 +192,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -209,7 +209,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -225,6 +225,7 @@ Description=NO CAP
 AllowFabrication=0
 ParameterCount=0
 VariationCount=8
+<<<<<<< HEAD
 Variation1=Designator=C32|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
 Variation2=Designator=R38|UniqueId=\UURXELBM\TJFZFJLU|Kind=1|AlternatePart= 
 Variation3=Designator=R39|UniqueId=\UURXELBM\NFOJIPUI|Kind=1|AlternatePart= 
@@ -233,6 +234,16 @@ Variation5=Designator=R41|UniqueId=\UURXELBM\ARVTPSTM|Kind=1|AlternatePart=
 Variation6=Designator=R42|UniqueId=\UURXELBM\IUIYYOCO|Kind=1|AlternatePart= 
 Variation7=Designator=P1|UniqueId=\UURXELBM\DTFHXUEQ|Kind=1|AlternatePart= 
 Variation8=Designator=U6|UniqueId=\UURXELBM\RWAMZMJM|Kind=1|AlternatePart= 
+=======
+Variation1=Designator=C30|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
+Variation2=Designator=R18|UniqueId=\UURXELBM\LDOGKCLX|Kind=1|AlternatePart= 
+Variation3=Designator=R19|UniqueId=\UURXELBM\DJJRMLAI|Kind=1|AlternatePart= 
+Variation4=Designator=R20|UniqueId=\UURXELBM\ZDRPUCGF|Kind=1|AlternatePart= 
+Variation5=Designator=R17|UniqueId=\UURXELBM\UVLSYZXI|Kind=1|AlternatePart= 
+Variation6=Designator=R16|UniqueId=\UURXELBM\DEHMBTAS|Kind=1|AlternatePart= 
+Variation7=Designator=U6|UniqueId=\UURXELBM\XNRSVBEP|Kind=1|AlternatePart= 
+Variation8=Designator=J3|UniqueId=\UURXELBM\ZQZFBDKR|Kind=1|AlternatePart= 
+>>>>>>> 7e034a9c004f31b6bfa93adee280602db90b64e2
 ParamVariationCount=0
 
 [Configuration1]
