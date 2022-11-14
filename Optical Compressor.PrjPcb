@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EYUCNNCB
 
 [Document2]
-DocumentPath=Optical Compressor.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KTFNIPVR
-
-[Document3]
 DocumentPath=Pre-amp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UPVKYQWC
 
-[Document4]
+[Document3]
 DocumentPath=Compressor and Sidechain.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVKEXNNL
 
-[Document5]
+[Document4]
 DocumentPath=Optical Compressor.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=Parts.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GRCZQVNM
 
-[Document7]
+[Document6]
 DocumentPath=Out.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GLUYEZQB
 
-[Document8]
+[Document7]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JCDLMQBD
 
-[Document9]
+[Document8]
 DocumentPath=Multiband XOver filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WQGJZLYO
 
-[Document10]
+[Document9]
 DocumentPath=Sum.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,13 +202,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OBTMZVDE
 
+[Document10]
+DocumentPath=Optical Compresor_V1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VUYGRCFT
+
 [ProjectVariant1]
 UniqueID=72083095-44A2-433B-A815-2F0EB92E4363
 Description=NO CAP
 AllowFabrication=0
 ParameterCount=0
 VariationCount=8
-<<<<<<< HEAD
 Variation1=Designator=C32|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
 Variation2=Designator=R38|UniqueId=\UURXELBM\TJFZFJLU|Kind=1|AlternatePart= 
 Variation3=Designator=R39|UniqueId=\UURXELBM\NFOJIPUI|Kind=1|AlternatePart= 
@@ -234,16 +233,6 @@ Variation5=Designator=R41|UniqueId=\UURXELBM\ARVTPSTM|Kind=1|AlternatePart=
 Variation6=Designator=R42|UniqueId=\UURXELBM\IUIYYOCO|Kind=1|AlternatePart= 
 Variation7=Designator=P1|UniqueId=\UURXELBM\DTFHXUEQ|Kind=1|AlternatePart= 
 Variation8=Designator=U6|UniqueId=\UURXELBM\RWAMZMJM|Kind=1|AlternatePart= 
-=======
-Variation1=Designator=C30|UniqueId=\XAXWEQVB\LTGRXUGY|Kind=1|AlternatePart= 
-Variation2=Designator=R18|UniqueId=\UURXELBM\LDOGKCLX|Kind=1|AlternatePart= 
-Variation3=Designator=R19|UniqueId=\UURXELBM\DJJRMLAI|Kind=1|AlternatePart= 
-Variation4=Designator=R20|UniqueId=\UURXELBM\ZDRPUCGF|Kind=1|AlternatePart= 
-Variation5=Designator=R17|UniqueId=\UURXELBM\UVLSYZXI|Kind=1|AlternatePart= 
-Variation6=Designator=R16|UniqueId=\UURXELBM\DEHMBTAS|Kind=1|AlternatePart= 
-Variation7=Designator=U6|UniqueId=\UURXELBM\XNRSVBEP|Kind=1|AlternatePart= 
-Variation8=Designator=J3|UniqueId=\UURXELBM\ZQZFBDKR|Kind=1|AlternatePart= 
->>>>>>> 7e034a9c004f31b6bfa93adee280602db90b64e2
 ParamVariationCount=0
 
 [Configuration1]
@@ -361,22 +350,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-L5200DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
