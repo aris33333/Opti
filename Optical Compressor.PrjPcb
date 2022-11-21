@@ -35,10 +35,7 @@ IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=043B0987-727A-439D-BE81-DDC462268C67
-VaultGUID=967E1CED-AC61-466A-8052-04CE333291E2
-ReleaseVaultName=EMC
-ItemGUID=043B0987-727A-439D-BE81-DDC462268C67
+ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -220,6 +217,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUYGRCFT
+
+[Document11]
+DocumentPath=Managed\OutputJobs\4CDB812A-2E74-4786-9227-911B72EC4962\OUT-VALIDATION-1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=Managed\OutputJobs\6EE8C32A-3EFA-44FE-8BCA-C7B251E96F1A\OUT-FAB-13.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=Managed\OutputJobs\9002EBE2-AE5B-4528-A685-B427CF9EE4FC\OUT-ASSY-9.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -1233,4 +1281,49 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[ManagedOutputJobs1]
+VaultGUID=c8a60b5b-31d0-42a9-bda1-6c263813662f
+VaultHRID=Darkglass Electronics
+ItemGUID=6E38EE52-1360-4328-A898-2DF06DBB05FE
+ItemHRID=OUT-VALIDATION
+RevisionGUID=4CDB812A-2E74-4786-9227-911B72EC4962
+RevisionHRID=OUT-VALIDATION-1
+Cached_RevisionCaption=Validation Outjob
+Cached_RevisionDescription=For Project Releaser
+Cached_LifeCycleStateHRID=New From Design
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=F0FAFF
+Cached_LifeCycleStateTextColor=000000
+Cached_RevisionReleaseDate=7/3/2020 8:35:32 AM
+
+[ManagedOutputJobs2]
+VaultGUID=c8a60b5b-31d0-42a9-bda1-6c263813662f
+VaultHRID=Darkglass Electronics
+ItemGUID=CD3A9FE4-8991-473E-8CF9-53BFD30345D4
+ItemHRID=OUT-FAB
+RevisionGUID=6EE8C32A-3EFA-44FE-8BCA-C7B251E96F1A
+RevisionHRID=OUT-FAB-13
+Cached_RevisionCaption=Fabrication Outjob
+Cached_RevisionDescription=For Project Releaser
+Cached_LifeCycleStateHRID=New From Design
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=F0FAFF
+Cached_LifeCycleStateTextColor=000000
+Cached_RevisionReleaseDate=8/18/2020 1:41:16 PM
+
+[ManagedOutputJobs3]
+VaultGUID=c8a60b5b-31d0-42a9-bda1-6c263813662f
+VaultHRID=Darkglass Electronics
+ItemGUID=95CB8F67-57BE-4D73-BCAC-8BF9BB643AF1
+ItemHRID=OUT-ASSY
+RevisionGUID=9002EBE2-AE5B-4528-A685-B427CF9EE4FC
+RevisionHRID=OUT-ASSY-9
+Cached_RevisionCaption=Assembly Outjob
+Cached_RevisionDescription=For Project Releaser
+Cached_LifeCycleStateHRID=New From Design
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=F0FAFF
+Cached_LifeCycleStateTextColor=000000
+Cached_RevisionReleaseDate=9/29/2022 11:13:54 AM
 
